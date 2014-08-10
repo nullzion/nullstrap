@@ -1,0 +1,36 @@
+{
+  "name": "nullstrap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nullzion/nullstrap",
+  "moduleType": [
+    "amd"
+  ],
+  "authors": [
+    "Filip Milković"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.1",
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.3"
+  },
+  "overrides": {
+    "normalize-css": {
+      "main": "**/*.css"
+    },
+    "jquery": {
+      "main": "**/jquery.min.js"
+    },
+    "modernizr": {
+      "main": "**/modernizr.js"
+    }
+  }
+}
